@@ -3,3 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    width:100%;
+    float:left;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid grey;
+    text-align: center;
+    clear:both;
+}
+header{
+    float:left;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid grey;
+    text-align: center;
+    width: 100%;
+}
+nav{
+    float:left;
+    height:90%;
+    width: 20%;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid grey;
+    text-align: center;
+    float: 10 10;
+}
+article{
+    float:left;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid grey;
+    text-align: center;
+    height:90%;
+    width: 60%;
+}
+div{
+    float:left;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid grey;
+    text-align: center;
+    height:90%;
+    width: 20%;
+}
