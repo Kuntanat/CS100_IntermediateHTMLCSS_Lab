@@ -29,6 +29,11 @@ nav {
     background-color: #ffa41b;
     padding: 15px;
     text-align: center;
+    float: left;
+    width: 20%;
+    height: 100vh;
+    position : sticky;
+    top: 10px;
 }
 
 nav ul {
@@ -38,8 +43,8 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 0 15px;
+    display: block;
+    margin: 30px 15px;
 }
 
 nav ul li a {
@@ -138,8 +143,14 @@ footer {
     background-color: #ffe066;
     padding: 10px;
     text-align: center;
+    clear: both;
 }
 
 footer p {
     margin: 0;
+}
+main{
+    padding: 20px;
+    width: 70%;
+    float: right;
 }
